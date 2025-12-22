@@ -1,0 +1,148 @@
+
+*{
+  font-family: 'Karla', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#main{
+    font-family: 'karla',sans-serif;
+  background-color:#0B2434;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+ 
+}
+
+#white{
+
+  background-color: #F5F5F5;
+   height: 85%;
+  width: 80%;
+  border-radius: 1rem;
+  border: 1px solid;
+
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  align-items: center;
+   padding: 2rem;
+}
+
+#dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: 80px;
+  gap: 65px;   /* Perfect spacing */
+}
+
+#dice-container >button{
+
+   font-family: 'karla', sans-serif;
+    cursor: pointer;
+
+      height: 100px;
+    width: 110px;
+
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: bold;
+    /* margin: 1rem; */
+  margin-top: 0.5rem;
+}
+
+#rollbutton{ 
+  margin-bottom: 2rem;
+  width: 7.5rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font: 400;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #5035FF;
+  color:white;
+    position: relative;
+    top: 3.5rem;
+}
+/* 
+#white >h1{
+
+  align-items: center;
+    position: relative;
+    bottom: 5rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+#white >p{
+
+    position: relative;
+  bottom: 3.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+} */
+ #white > h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#white > p {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+  max-width: 800px;
+
+}
+
+#NewGame{
+
+ /*margin-bottom: 6rem;
+  width: 6rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font: 400;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #5035FF;
+  color:white;
+     position: relative; 
+    top: 4.5rem; */
+     margin-bottom: 2rem;
+  width: 8rem;
+  height: 4rem;
+  border: none;
+  border-radius: 0.5rem;
+  font: 400;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #5035FF;
+  color:rgb(255, 255, 255);
+    position: relative;
+    top: 3.5rem;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
