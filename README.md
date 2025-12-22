@@ -94,7 +94,7 @@ npm --version   # Should show v6+
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/shubham1-max/tenzies-game.git
+git clone https://github.com/shubham1-max/REACT_PROJECTS
 ```
 
 2. **Install dependencies**:
@@ -112,7 +112,7 @@ The application will automatically open at `http://localhost:5173`
 
 # One-liner setup for impatient developers
 ```
-git clone https://github.com/shubham1-max/tenzies-game.git
+git clone https://github.com/shubham1-max/REACT_PROJECTS
 cd tenzies-game
 npm install
 npm run dev
@@ -256,7 +256,7 @@ npm run lint
 Contributions are welcome! Whether it's bug fixes, features, or improvements to documentation:
 
 1. **Fork** the repository
-   git clone https://github.com/shubham1-max/tenzies-game.git
+  git clone https://github.com/shubham1-max/REACT_PROJECTS
 
 2. **Create a feature branch**
    git checkout -b feature/AmazingFeature
@@ -298,11 +298,11 @@ You are free to use, modify, and distribute this project for personal and commer
 
 Have questions or found a bug? Reach out!
 
-- **GitHub Issues**: [Create an issue](https://github.com/shubham1-max/tenzies-game/issues)
+- **GitHub Issues**: [Create an issue](https://github.com/shubham1-max/REACT_PROJECTS/issues)
 - **Email**: shubhamspatil2006@gmail.com
 
 **Problem?** Make sure to:
-1. Check the [existing issues](https://github.com/shubham1-max/tenzies-game/issues)
+1. Check the [existing issues](https://github.com/shubham1-max/REACT_PROJECTS/issues)
 2. Provide clear steps to reproduce
 3. Share your browser and Node.js version
 
