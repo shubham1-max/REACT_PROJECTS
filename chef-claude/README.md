@@ -16,8 +16,6 @@ A smart, intelligent recipe generation app built with **React**, **Vite**, and *
 
 ---
 
-## 📋 Table of Contents
-
 ## 📑 Table of Contents
 
 - [About the Project](#about-the-project)
